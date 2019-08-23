@@ -8,10 +8,14 @@ There are 2 ways to include a script:
 
 ##### From the Script tag
 Simply use the script tag you used to request include.js and add the "load" parameter, like so:
-> <script src="include.js" load="script.js">
+~~~
+<script src="include.js" load="script.js">
+~~~
 
 You can add multiple scripts at once by putting a valid JSON array inside the load parameter, here's an example:
-> <script src="include.js" load='["script_1.js", "script_2.js"]'>
+~~~
+<script src="include.js" load='["script_1.js", "script_2.js"]'>
+~~~
 
 ##### From inside a script
 Simply use the include function and pass the parameters as an object, like so:
