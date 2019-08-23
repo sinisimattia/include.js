@@ -4,7 +4,7 @@ function include({url, method, isAsync, type}){
     
     request.onreadystatechange = () => {
         if (request.readyState === 4){
-            eval(request.response);
+            window.eval(request.response);
         }
         else if (request.readyState === 1){
             request.send();
