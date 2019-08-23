@@ -16,10 +16,8 @@ You can add multiple scripts at once by putting a valid JSON array inside the lo
 ##### From inside a script
 Simply use the include function and pass the parameters as an object, like so:
 
-<code>
-include({
-  
-  url: "script.js" // or a valid JSON array like in the example above
-  
+~~~
+include({  
+  url: "script.js" // or a valid JSON array like in the example above  
 });
-</code>
+~~~
