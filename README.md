@@ -1,6 +1,3 @@
-# include.js
-### Dynamically include scripts inside your pages
-
 include.js allows you to request a script from inside another one.
 
 ##### How does it work?
